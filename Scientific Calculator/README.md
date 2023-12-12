@@ -1,1 +1,0 @@
-A Scientific Calculator app.
