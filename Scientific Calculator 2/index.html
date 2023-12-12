@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="outside">
+        <div class="container">
+            <div class="textbox">
+                <form name="calculator">
+                    <input type="text" name="answer" class="answer" id="display" placeholder="0">
+                </form>
+                
+            </div>
+            
+            <div class="buttons">
+                <div class="row">
+                    <button id="ce" onclick="cleardisplay()">CE</button>
+                    <button class="btn" onclick="factorial()">x!</button>
+                    <button class="btn" onclick="leftBracket()">(</button>
+                    <button class="btn" onclick="rightBracket()">)</button>
+                    <button class="btn" onclick="percentage()">%</button>
+                    <button class="btn" onclick="allClear()">AC</button>
+                </div>
+
+                <div class="row">
+                    <button class="btn" onclick="sin()">sin</button>
+                    <button class="btn" onclick="pi()">π</button>
+                    <button class="btn" onclick="number(7)">7</button>
+                    <button class="btn" onclick="number(8)">8</button>
+                    <button class="btn" onclick="number(9)">9</button>
+                    <button class="btn" onclick="divide()">÷</button>
+                </div>
+
+                <div class="row">
+                    <button class="btn" onclick="cos()">cos</button>
+                    <button class="btn"onclick="log()">log</button>
+                    <button class="btn" onclick="number(4)">4</button>
+                    <button class="btn" onclick="number(5)">5</button>
+                    <button class="btn" onclick="number(6)">6</button>
+                    <button class="btn" onclick="multiply()">x</button>
+                </div>
+
+                <div class="row">
+                    <button class="btn" onclick="tan()">tan</button>
+                    <button class="btn" onclick="root()">√</button>
+                    <button class="btn" onclick="number(1)">1</button>
+                    <button class="btn"onclick="number(2)">2</button>
+                    <button class="btn" onclick="number(3)">3</button>
+                    <button class="btn" onclick="subtract()">-</button>
+                </div>
+
+                <div class="row">
+                    <button class="btn" onclick="exp()">e</button>
+                    <button class="btn" onclick="power()">x <span style="position: relative; bottom: .4em; right: .1em;">y</span> </button>
+                    <button class="btn" onclick="number(0)">0</button>
+                    <button class="btn" onclick="decimal()">.</button>
+                    <button class="btn" onclick="equals()">=</button>
+                    <button class="btn" onclick="add()">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+
+</html>
